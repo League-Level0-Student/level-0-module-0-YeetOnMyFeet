@@ -20,23 +20,53 @@ BB8.penDown();
         // 6. Make the robot move as fast as possible
 BB8.setSpeed(100);
 
+int distance = (200);
+
+for (int i = 0; i < 4; i++) {
+	BB8.move(distance);
+	BB8.turn(90);
+	
+}
         // 5. Do everything below here 4 times
-
-BB8.move(250);
-BB8.turn(60);
-BB8.move(100);
-BB8.turn(60);
-BB8.move(100);
-BB8.turn(100);
-BB8.move(250);
 BB8.turn(-90);
-BB8.move(100);
+
+for (int i = 0; i < 4; i++) {
+	BB8.move(distance);
+	BB8.turn(90);
 
 
-
-
+}
+BB8.turn(-90);
         //         2. Move your robot 200 pixels
+for (int i = 0; i < 4; i++) {
+	BB8.move(distance);
+	BB8.turn(90);
+}
+BB8.turn(-90);
+//         2. Move your robot 200 pixels
+for (int i = 0; i < 4; i++) {
+BB8.move(distance);
+BB8.turn(90);
+}
 
+BB8.move(distance);
+
+BB8.turn(90);
+//         2. Move your robot 200 pixels
+for (int i = 0; i < 4; i++) {
+BB8.move(distance);
+BB8.turn(90);
+}
+BB8.turn(180);
+for (int i = 0; i < 4; i++) {
+BB8.move(distance);
+BB8.turn(90);
+}
+BB8.turn(-180);
+for (int i = 0; i < 4; i++) {
+BB8.move(distance);
+BB8.turn(90);
+}
         //         4. Turn the robot 90 degrees to the right (90 degrees)
 
 
